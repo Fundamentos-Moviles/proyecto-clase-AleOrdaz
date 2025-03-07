@@ -15,4 +15,7 @@ class Singleton {
 
   //Siempre inicializar las variables a un valor fijo
   String name = '';
+  int id_editar = 0;
+
+  List nuevaLista = [];
 }
