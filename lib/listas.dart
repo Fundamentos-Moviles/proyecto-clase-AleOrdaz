@@ -20,7 +20,7 @@ class _ListasState extends State<Listas> {
   @override
   void initState() {
     singleton.name = "";
-    singleton.nuevaLista = con.dameLista();
+    singleton.nuevaLista = con.dameLista(); //no mutables
     // TODO: implement initState
     super.initState();
   }
@@ -117,7 +117,7 @@ class _ListasState extends State<Listas> {
                           //registro[0]
 
                           //Pasar los valores a los textformfield
-                          nombre.text = registro[1];
+                          //nombre.text = registro[1];
 
                           Navigator.push(context, MaterialPageRoute(
                               builder: (context) => const Editar()));

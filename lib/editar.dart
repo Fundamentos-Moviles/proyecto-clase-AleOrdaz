@@ -30,7 +30,7 @@ class _EditarState extends State<Editar> {
            ),
            TextFormField(
              controller: c,
-             initialValue: singleton.nuevaLista[id].split("#")[1],
+             initialValue: singleton.nuevaLista[0].split("#")[1],
            ),
            TextFormField(
              controller: d,
